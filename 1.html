@@ -3,22 +3,30 @@
 <head>
     <title>WEB1 - html</title> 
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
 </head>
 
 <body>
     <h1><a href="index.html">WEB</a></h1>
-    <ol>
+    <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);">
+    <div id="layout">
+        <ol>
         <li><a href="1.html">HTML</a></li>
         <li><a href="2.html">CSS</a></li>
         <li><a href="3.html">JavaScript</a></li>
-    </ol>
+        </ol>
+        
+        <div id="article">
+            <h2>HTML</h2>
 
-    <h2>HTML</h2>
-
-    <p><a href="https://www.w3.org/" target="_blank" title="abcde">Hypertext markup Language (HTML)</a> is the standard markup language for <br>
-    <strong>creating <u>web</u> pages</strong> an web application <br>
-    </p>>
-    <img src="a.jpg" width = "50%">
-    <p style="margin-top:40px;">asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>
+            <p><a href="https://www.w3.org/" target="_blank" title="abcde">Hypertext markup Language (HTML)</a> is the standard markup language for <br>
+            <strong>creating <u>web</u> pages</strong> an web application <br>
+            </p>>
+            <img src="a.jpg" width = "50%">
+            <p style="margin-top:40px;">asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfa</p>    
+        </div>
+    </div>
 </body>
 </html>
